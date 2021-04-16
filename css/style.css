@@ -5,12 +5,18 @@
 /* General */
 body {
 	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
 }
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #000;
 	text-decoration: none;
+}
+
+h2 {
+	
+	font-size: 1.8em;
 }
 
 a {
