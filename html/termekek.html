@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
 	
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
@@ -16,10 +16,10 @@
 
 <body>
 	<header>
-	<div id="firstview">
+	<div id="products-header">
 		<div id="menu-container">
 			<div id="logo-container">
-			  <div><a href="index.html" class="logo"><img src="/pics/Drop-Up-Logo-piros.png" alt="logo" class="menu-logo"></a></div>
+			  <div><a href="index.html" class="logo"><img src="../pics/Drop-Up-Logo-piros.png" alt="logo" class="menu-logo"></a></div>
 			  <div id="menu-logo-text"><a href="index.html"><h1>DROP UP</h1></a></div>
 			</div>
 			<div class="hamburger">
@@ -32,27 +32,67 @@
 				  <ul>
 					  <li><a href="#drops">Vitamincseppek</a></li>
 					  <li><a href="#book">Időpontfoglalás</a></li>
-					  <li class="dropdown"><a href="#about">Információk &#9662;</a> <!-- &#9663; &#8964; &#9661; -->
+					  <li class="dropdown"><a href="#">Információk &#9662;</a>
 					  	<ul class="dropdown-content">
-							<li><a href="#products">Termékek</a></li>
+							<li><a href="/dropup/html/termekek.html">Termékek</a></li>
 							<li><a href="#benefits">Előnyök</a></li>
-							<li><a href="#faq">FAQ</a></li>
-							<li><a href="#about">Rólunk</a></li>
+							<li><a href="/dropup/html/gyik.html">GYIK</a></li>
+							<li><a href="/dropup/html/rolunk.html">Rólunk</a></li>
 					    </ul></li>
 					  <li><a href="#contact">Kapcsolat</a></li>
 					  <li><a href="#book" id="menu-cta-btn">Foglalok</a></li>
 				  </ul>
 			  </nav>
 			</div>
+		 </div>
 		</div>
-		
-		<section id="heroe" class="heroe">
-			<h1>Termékek</h1>
-		</section>
-	</div>
 	</header>
-	
-	<main>
+	<main>	
+		<section id="products" class="products">
+		 <h1>Termékek</h1>
+		 <h2>Intravénás koktéljaink</h2>
+		  <div class="product-container">
+			<div class="product-box">
+				<div class="product-logo"><img src="../pics/Drop-Up-Logo-piros.png" alt="product logo" class="product-logo"></div>
+				<h2 id="energy" class="product-title">Energizáló Drop</h2>
+				<p class="product-description">The Energy Drip contains Vitamin B12 which contributes to the reduction of tiredness and fatigue and contributes to normal energy-yielding metabolism. <br>Help to regulate your energy levels and sleep quality with our best selling Drip containing a unique combination of B Vitamins, B12, Amino Acids and Magnesium.</p>
+				<h2 class="price">25.000 Ft</h2>
+			</div>			
+		  
+			<div class="product-box">
+				<div class="product-logo"><img src="../pics/Drop-Up-Logo-kek.png" alt="product logo" class="product-logo"></div>
+				<h2 id="hydrate" class="product-title">Hidratáló Drop</h2>
+				<p class="product-description">The Energy Drip contains Vitamin B12 which contributes to the reduction of tiredness and fatigue and contributes to normal energy-yielding metabolism. <br>Help to regulate your energy levels and sleep quality with our best selling Drip containing a unique combination of B Vitamins, B12, Amino Acids and Magnesium.</p>
+				<h2 class="price">25.000 Ft</h2>
+			</div>			
+		  
+			<div class="product-box">
+				<div class="product-logo"><img src="../pics/Drop-Up-Logo-zold.png" alt="product logo" class="product-logo"></div>
+				<h2 id="travel" class="product-title">Világjáró Drop</h2>
+				<p class="product-description">The Energy Drip contains Vitamin B12 which contributes to the reduction of tiredness and fatigue and contributes to normal energy-yielding metabolism. <br>Help to regulate your energy levels and sleep quality with our best selling Drip containing a unique combination of B Vitamins, B12, Amino Acids and Magnesium.</p>
+				<h2 class="price">25.000 Ft</h2>
+			</div>	
+			  
+			<div class="product-box">
+				<div class="product-logo"><img src="../pics/Drop-Up-Logo-lila.png" alt="product logo" class="product-logo"></div>
+				<h2 id="antiaging" class="product-title">Öregedésgátló Drop</h2>
+				<p class="product-description">The Energy Drip contains Vitamin B12 which contributes to the reduction of tiredness and fatigue and contributes to normal energy-yielding metabolism. <br>Help to regulate your energy levels and sleep quality with our best selling Drip containing a unique combination of B Vitamins, B12, Amino Acids and Magnesium.</p>
+				<h2 class="price">25.000 Ft</h2>
+			</div>
+			  
+			<div class="product-box">
+				<div class="product-logo"><img src="../pics/Drop-Up-Logo-fekete.png" alt="product logo" class="product-logo"></div>
+				<h2 id="hangover" class="product-title">Másnaposságűző Drop</h2>
+				<p class="product-description">The Energy Drip contains Vitamin B12 which contributes to the reduction of tiredness and fatigue and contributes to normal energy-yielding metabolism. <br>Help to regulate your energy levels and sleep quality with our best selling Drip containing a unique combination of B Vitamins, B12, Amino Acids and Magnesium.</p>
+				<h2 class="price">25.000 Ft</h2>
+			</div>	
+			  
+		  </div> <!-- prouct container -->
+			<br><br>
+			<div class="button-container"><a href="/dropup/html/gyik.html" class="menu-cta-btn">Többet szeretnék tudni</a></div>
+			<div class="button-container"><a href="#book" class="menu-cta-btn">Időpontot foglalok</a></div>
+			<div class="product-lifestyle-img"><img src="../pics/christopher-campbell.jpeg" class="product-image" alt="woman picture"></div>
+		</section>
 	</main>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
