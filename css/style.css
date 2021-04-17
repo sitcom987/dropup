@@ -148,7 +148,6 @@ div#menu-logo-text a {
 #menu-cta-btn {
   background: #F21B3F;
   color: #fff;
-/* border: 2px solid #F21B3F; */
   padding: 11px 30px 11px 30px;
   white-space: nowrap;
   transition: 0.3s;
@@ -432,6 +431,25 @@ h2.price {
 	color: #696969;
 }
 
+.product-cta-btn {
+	margin: 10px 0 5px 0;
+	padding: 0px 20px 0 20px;
+	white-space: nowrap;
+	transition: 0.3s;
+	font-weight: 600;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.product-cta-btn:hover {
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
 .product-image {
 	width: 90%;
 	max-width: 1000px;
@@ -442,24 +460,48 @@ h2.price {
 	text-align: center;
 }
 
-#energy {
+#energy, a.energy {
 	background-image: linear-gradient(90deg, #FF9914, #F21B3F);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
 }
 
-#hydrate {
+a.energy:hover {
+	color: #F21B3F;
+}
+
+#hydrate, a.hydrate {
 	background-image: linear-gradient(90deg, #03F7EB, #3688BF);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
 }
 
-#travel {
+#travel, a.travel {
 	background-image: linear-gradient(90deg, #709255, #684E32);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
 }
 
-#antiaging {
+#antiaging, a.antiaging {
 	background-image: linear-gradient(90deg, #4F345A, #FB89C2);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
 }
 
-#hangover {
+#hangover, a.hangover {
 	background-image: linear-gradient(90deg, #011627, #FF9F1C);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
 }
 
 .button-container {
