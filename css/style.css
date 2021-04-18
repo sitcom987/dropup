@@ -397,11 +397,26 @@ div#menu-logo-text a {
 }
 
 .product-box {
-	background-color: #E7E7E7;
 	width: 300px;
 	text-align: center;
-	padding: 15px;
+	padding: 20px;
 	margin: 10px;
+	box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+	transition: all 0.3s ease-in-out;
+}
+
+.product-box:hover {
+	transform: scale(1.05);
+}
+
+.product-box ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.product-box ul li::before {
+  	content: attr(data-icon);
+  	font-size: 1.25em;
 }
 
 .product-logo {
@@ -432,8 +447,8 @@ h2.price {
 }
 
 .product-cta-btn {
-	margin: 10px 0 5px 0;
-	padding: 0px 20px 0 20px;
+	margin: 5px 0 5px 0;
+	padding: 5px 20px 0 20px;
 	white-space: nowrap;
 	transition: 0.3s;
 	font-weight: 600;
@@ -441,13 +456,11 @@ h2.price {
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
+	border: solid 2px;
 }
 
 a.product-cta-btn:hover {
-	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent; 
-  	-moz-background-clip: text;
-  	-moz-text-fill-color: transparent;
+	transform: scale(1.05);
 }
 
 .product-image {
@@ -460,20 +473,30 @@ a.product-cta-btn:hover {
 	text-align: center;
 }
 
-#energy, a.energy {
+#energy, a.energy, #energy > .product-cta-btn {
 	background-image: linear-gradient(90deg, #FF9914, #F21B3F);
+	border-image: linear-gradient(90deg, #FF9914, #F21B3F);
+	border-image-slice: 1;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-a.energy:hover {
-	color: #F21B3F;
-}
-
 #hydrate, a.hydrate {
 	background-image: linear-gradient(90deg, #03F7EB, #3688BF);
+	border-image: linear-gradient(90deg, #03F7EB, #3688BF);
+	border-image-slice: 1;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
+#immunity, a.immunity {
+	background-image: linear-gradient(90deg, #73D625, #007F3B);
+	border-image: linear-gradient(90deg, #73D625, #007F3B);
+	border-image-slice: 1;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
@@ -482,6 +505,8 @@ a.energy:hover {
 
 #travel, a.travel {
 	background-image: linear-gradient(90deg, #709255, #684E32);
+	border-image: linear-gradient(90deg, #709255, #684E32);
+	border-image-slice: 1;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
@@ -490,6 +515,8 @@ a.energy:hover {
 
 #antiaging, a.antiaging {
 	background-image: linear-gradient(90deg, #4F345A, #FB89C2);
+	border-image: linear-gradient(90deg, #4F345A, #FB89C2);
+	border-image-slice: 1;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
@@ -498,6 +525,8 @@ a.energy:hover {
 
 #hangover, a.hangover {
 	background-image: linear-gradient(90deg, #011627, #FF9F1C);
+	border-image: linear-gradient(90deg, #011627, #FF9F1C);
+	border-image-slice: 1;
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
