@@ -495,7 +495,7 @@ a.product-cta-btn:hover {
 	border-image-slice: 1;
 }
 
-#immunity, h2.hydrate, a.immunity {
+#immunity, h2.immunity, a.immunity {
 	background-image: linear-gradient(90deg, #73D625, #007F3B);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
@@ -516,7 +516,7 @@ a.product-cta-btn:hover {
   	-moz-text-fill-color: transparent;
 }
 
-#travel > .product-cta-btn, a.immunity {
+#travel > .product-cta-btn, a.travel {
 	border-image: linear-gradient(90deg, #709255, #684E32);
 	border-image-slice: 1;
 }
@@ -530,7 +530,7 @@ a.product-cta-btn:hover {
   	-moz-text-fill-color: transparent;
 }
 
-#antiaging > .product-cta-btn, a.immunity {
+#antiaging > .product-cta-btn, a.antiaging {
 	border-image: linear-gradient(90deg, #4F345A, #FB89C2);
 	border-image-slice: 1;
 }
@@ -544,7 +544,7 @@ a.product-cta-btn:hover {
   	-moz-text-fill-color: transparent;
 }
 
-#hangover > .product-cta-btn, a.immunity {
+#hangover > .product-cta-btn, a.hangover {
 	border-image: linear-gradient(90deg, #011627, #FF9F1C);
 	border-image-slice: 1;
 }
