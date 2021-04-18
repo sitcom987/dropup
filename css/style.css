@@ -26,6 +26,7 @@ a {
 
 a:hover {
 	text-decoration: none;
+	color: #F21B3F;
 }
 
 
@@ -551,4 +552,48 @@ a.product-cta-btn:hover {
 
 .button-container {
 	text-align: center;
+}
+
+
+/* FAQ */
+
+#faq > h1 {
+	text-align: center;
+}
+
+#accordion {
+	max-width: 85%;
+	padding: 0 15px 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#accordion > .card {
+	border-radius: 0;
+}
+
+.card-header {
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+.card-header .btn-link {
+	font-size: 1em;
+	color: #000000;
+	text-decoration: none;
+}
+
+.card-header .btn-link:hover {
+	color: #F21B3F;
+}
+
+
+/* About Us */
+
+#about-us {
+	padding: 0 20px 0 20px;
+}
+
+#about-us > h1 {
+	padding: 0;
 }
