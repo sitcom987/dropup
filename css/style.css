@@ -433,10 +433,6 @@ div#menu-logo-text a {
 }
 
 h2.product-title {
- 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent; 
-  	-moz-background-clip: text;
-  	-moz-text-fill-color: transparent;
 	font-size: 1.8em;
 }
 
@@ -473,64 +469,84 @@ a.product-cta-btn:hover {
 	text-align: center;
 }
 
-#energy, a.energy, #energy > .product-cta-btn {
+#energy, h2.energy, a.energy {
 	background-image: linear-gradient(90deg, #FF9914, #F21B3F);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
+#energy > .product-cta-btn, a.energy {
 	border-image: linear-gradient(90deg, #FF9914, #F21B3F);
 	border-image-slice: 1;
+}
+
+#hydrate, h2.hydrate, a.hydrate {
+	background-image: linear-gradient(90deg, #03F7EB, #3688BF);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-#hydrate, a.hydrate {
-	background-image: linear-gradient(90deg, #03F7EB, #3688BF);
+#hydrate > .product-cta-btn, a.hydrate {
 	border-image: linear-gradient(90deg, #03F7EB, #3688BF);
 	border-image-slice: 1;
+}
+
+#immunity, h2.hydrate, a.immunity {
+	background-image: linear-gradient(90deg, #73D625, #007F3B);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-#immunity, a.immunity {
-	background-image: linear-gradient(90deg, #73D625, #007F3B);
+#immunity > .product-cta-btn, a.immunity {
 	border-image: linear-gradient(90deg, #73D625, #007F3B);
 	border-image-slice: 1;
+}
+
+#travel, h2.travel, a.travel {
+	background-image: linear-gradient(90deg, #709255, #684E32);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-#travel, a.travel {
-	background-image: linear-gradient(90deg, #709255, #684E32);
+#travel > .product-cta-btn, a.immunity {
 	border-image: linear-gradient(90deg, #709255, #684E32);
 	border-image-slice: 1;
+}
+
+
+#antiaging, h2.antiaging, a.antiaging {
+	background-image: linear-gradient(90deg, #4F345A, #FB89C2);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-#antiaging, a.antiaging {
-	background-image: linear-gradient(90deg, #4F345A, #FB89C2);
+#antiaging > .product-cta-btn, a.immunity {
 	border-image: linear-gradient(90deg, #4F345A, #FB89C2);
 	border-image-slice: 1;
+}
+
+#hangover, h2.hangover, a.hangover {
+	background-image: linear-gradient(90deg, #011627, #FF9F1C);
+	
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent; 
   	-moz-background-clip: text;
   	-moz-text-fill-color: transparent;
 }
 
-#hangover, a.hangover {
-	background-image: linear-gradient(90deg, #011627, #FF9F1C);
+#hangover > .product-cta-btn, a.immunity {
 	border-image: linear-gradient(90deg, #011627, #FF9F1C);
 	border-image-slice: 1;
-	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent; 
-  	-moz-background-clip: text;
-  	-moz-text-fill-color: transparent;
 }
 
 .button-container {
